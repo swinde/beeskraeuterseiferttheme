@@ -1,0 +1,99 @@
+{% sw_extends '@Storefront/storefront/utilities/offcanvas.html.twig' %}
+{% block utilities_offcanvas_content %}
+
+
+<p>Nährwerte je 100g/100ml</p>
+<table class="table table-hover">
+    <tbody>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# KJ #}
+            {% if key == "migration_SW5-KS_product_attr4" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.kJ"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# Kcal #}
+            {% if key == "migration_SW5-KS_product_attr5" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.kcal"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# Fett #}
+            {% if key == "migration_SW5-KS_product_attr6" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {% if key == "migration_SW5-KS_product_attr7" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {% if key == "migration_SW5-KS_product_attr8" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# Kohlehydrate #}
+            {% if key == "migration_SW5-KS_product_attr9" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# Zucker #}
+            {% if key == "migration_SW5-KS_product_attr10" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# Eiweis #}
+            {% if key == "migration_SW5-KS_product_attr11" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for key, item in page.product.translated.customFields %}
+            {# Salz #}
+            {% if key == "migration_SW5-KS_product_attr20" %}
+                {% set transName = "customFields." ~ key %}
+                <td>{{ transName|trans|sw_sanitize |raw }}:</td>
+                <td>{{ item |raw }} {{ "beesWeb.nutritionLabelling.value.unit.g"|trans|sw_sanitize }}</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+
+    </tbody>
+</table>
+{% endblock %}

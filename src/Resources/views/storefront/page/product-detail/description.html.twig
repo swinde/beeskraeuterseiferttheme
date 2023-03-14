@@ -1,0 +1,19 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/description.html.twig' %}
+
+{% block page_product_detail_description_content_text %}
+    {{ parent() }}
+    {# Ausgabe Inhaltstoffe Zusatzfeld #}
+        {% for key, item in page.product.translated.customFields %}
+            {% if key == "migration_SW5-KS_product_attr19" %}
+            {% set transName = "customFields." ~ key %}
+                <div>
+                    <p>
+                       <strong>{{ transName|trans|sw_sanitize }}:</strong>
+                        <span>{{ item|raw}}</span>
+                    </p>
+                </div>
+
+            {% endif %}
+        {% endfor %}
+
+{% endblock %}

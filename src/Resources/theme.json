@@ -1,0 +1,153 @@
+{
+  "name": "Kräuter Seifert Theme",
+  "author": "Internetservice Steffen Winde",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@BeesKraeuterSeifertTheme"
+  ],
+  "previewMedia": "app/kraeuterseiferttheme.jpg",
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/bees-kraeuter-seifert-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "blocks": {
+      "themeColors": {
+        "label": {
+          "en-GB": "Theme colours",
+          "de-DE": "Theme-Farben"
+        }
+      },
+      "typography": {
+        "label": {
+          "en-GB": "Typography",
+          "de-DE": "Typografie"
+        }
+      },
+      "eCommerce": {
+        "label": {
+          "en-GB": "E-Commerce",
+          "de-DE": "E-Commerce"
+        }
+      },
+      "statusColors": {
+        "label": {
+          "en-GB": "Status messages",
+          "de-DE": "Status-Ausgaben"
+        }
+      },
+      "media": {
+        "label": {
+          "en-GB": "Media",
+          "de-DE": "Medien"
+        }
+      },
+      "unordered": {
+        "label": {
+          "en-GB": "Misc",
+          "de-DE": "Sonstige"
+        }
+      }
+    },
+    "sections": {
+      "importantColors": {
+        "label": {
+          "en-GB": "Important colors",
+          "de-DE": "Wichtige Farben"
+        }
+      }
+    },
+    "tabs": {
+      "colors": {
+        "label": {
+          "en-GB": "Colours",
+          "de-DE": "Farben"
+        }
+      },
+      "media": {
+        "label": {
+          "en-GB": "Media",
+          "de-DE": "Medien"
+        }
+      }
+    },
+    "fields": {
+      "sw-color-brand-primary": {
+        "label": {
+          "en-GB": "Primary colour",
+          "de-DE": "Primär"
+        },
+        "type": "color",
+        "value": "#679a04",
+        "editable": true,
+        "tab": "colors",
+        "block": "themeColors",
+        "section": "importantColors"
+      },
+      "sw-color-brand-secondary": {
+        "label": {
+          "en-GB": "Secondary colour",
+          "de-DE": "Secondary"
+        },
+        "type": "color",
+        "value": "#333",
+        "editable": true,
+        "tab": "colors",
+        "block": "themeColors",
+        "section": "importantColors"
+      },
+      "header-background-color": {
+        "label": {
+          "en-GB": "Header Background Color",
+          "de-DE": "Haeder Background Color"
+        },
+        "type": "color",
+        "value": "#ffffff",
+        "tab": "colors",
+        "block": "themeColors",
+        "section": "Colours"
+      },
+      "footer-background-color": {
+        "label": {
+          "en-GB": "Footer Background Color",
+          "de-DE": "Footer Background Color"
+        },
+        "type": "color",
+        "value": "#364156",
+        "tab": "colors",
+        "block": "themeColors",
+        "section": "importantColors"
+      },
+      "sw-logo-desktop": {
+        "type": "media",
+        "value": "app/storefront/dist/assets/logo/logo.jpg"
+      },
+      "sw-logo-tablet": {
+        "type": "media",
+        "value": "app/storefront/dist/assets/logo/logo.jpg"
+      },
+      "sw-logo-mobile": {
+        "type": "media",
+        "value": "app/storefront/dist/assets/logo/logo.jpg"
+      },
+      "sw-logo-share": {
+        "type": "media",
+        "value": "app/storefront/dist/assets/logo/logo.jpg"
+      },
+      "sw-logo-favicon": {
+        "type": "media",
+        "value": "app/storefront/dist/assets/logo/logo.jpg"
+      }
+    }
+  }
+}

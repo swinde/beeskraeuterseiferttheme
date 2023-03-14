@@ -1,0 +1,16 @@
+@import "custom-styles/hero_images";
+@import "custom-styles/main-navigation";
+@import "custom-styles/navigation-flyout";
+@import "component/cms-block";
+@import "header/header";
+
+.tab-pane{
+  span{
+    font-size: smaller;
+  }
+}
+.breadcrumb{
+  &.cms-breadcrumb {
+    display: none;
+  }
+}

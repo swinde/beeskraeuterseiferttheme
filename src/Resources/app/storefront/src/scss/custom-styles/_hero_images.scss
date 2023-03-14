@@ -1,0 +1,59 @@
+/*
+Hero Image
+==============================================
+Custom styling for Hero Image.
+*/
+
+
+.cms-page{
+  &.hero {
+    max-width: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1d221f;
+    color: #fff;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 0;
+    > .cms-sections {
+      padding-left: .9375rem;
+      padding-right: .9375rem;
+      max-width: 66.625em;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      position: static;
+      min-height: inherit;
+      overflow: hidden;
+      display: flex;
+      flex: 0 0 auto;
+    }
+  }
+  &.hero--full {
+    min-height: 90vh;
+    min-height: calc(90vh - 6.5rem);
+  }
+
+}
+.hero__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.hero__text {
+   margin-top: 1.625rem;
+   position: relative;
+   z-index: 1000;
+   text-align: center;
+   align-self: flex-end;
+  background-color: rgba(125, 125, 125, 0.5);
+  padding: 1rem;
+  h2, a{
+    color:var(--white)
+  }
+ }

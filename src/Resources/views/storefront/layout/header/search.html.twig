@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/layout/header/search.html.twig' %}
+
+{% block layout_header_search %}
+    {{ parent() }}
+    <div class="freeshipinfo">
+       <p>
+           {{ "child-theme.searchFreeShippingInfo"|trans | raw }}
+       </p>
+    </div>
+
+{% endblock %}

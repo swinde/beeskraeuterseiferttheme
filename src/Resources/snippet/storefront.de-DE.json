@@ -1,0 +1,163 @@
+{
+    "child-theme": {
+        "alertHeader": "Child Theme funktioniert! :)",
+        "alertText": "Schau mal in den Entwicklertools des Browsers ob der <b>console.log()</b> Befehl auch funktioniert.",
+        "searchFreeShippingInfo": "<p>Zahlung per <b>Vorkasse</b>, <b>Paypal</b> & </br><b>Rechnung</b><span>(ab 2. Bestellung mit Kundenkonto)</span>"
+    },
+    "beesWeb": {
+        "nutritionLabelling": {
+            "value": {
+                "name": {
+                    "nutritional_values_kilocalories": "Kilokalorien",
+                    "nutritional_values_kilojoules": "Kilojoules",
+                    "nutritional_values_fat": "Fett",
+                    "nutritional_values_fat_saturated_fatty_acids": "davon gesättigte Fettsäuren",
+                    "nutritional_values_fat_monounsaturated_fatty_acids": "davon einfach ungesättigte Fettsäuren",
+                    "nutritional_values_fat_polyunsaturated_fatty_acids": "davon mehrfach ungesättigte Fettsäuren",
+                    "nutritional_values_fat_trans_fatty_acids": "davon Transfettsäuren",
+                    "nutritional_values_carbohydrate": "Kohlenhydrate",
+                    "nutritional_values_carbohydrate_sugar": "davon Zucker",
+                    "nutritional_values_carbohydrate_polyhydric_alcohols": "davon mehrwertige Alkohole",
+                    "nutritional_values_carbohydrate_starch": "davon mehrwertige Alkohole",
+                    "nutritional_values_fiber": "Ballaststoffe",
+                    "nutritional_values_protein": "Protein",
+                    "nutritional_values_salt": "Salz",
+                    "vitamins_and_minerals_vitamin_a": "Vitamin A",
+                    "vitamins_and_minerals_vitamin_d": "Vitamin D",
+                    "vitamins_and_minerals_vitamin_e": "Vitamin E",
+                    "vitamins_and_minerals_vitamin_k": "Vitamin K",
+                    "vitamins_and_minerals_vitamin_c": "Vitamin C",
+                    "vitamins_and_minerals_thiamin": "Thiamin",
+                    "vitamins_and_minerals_riboflavin": "Riboflavin",
+                    "vitamins_and_minerals_niacin": "Niacin",
+                    "vitamins_and_minerals_vitamin_b6": "Vitamin B6",
+                    "vitamins_and_minerals_folic_acid": "Folsäure",
+                    "vitamins_and_minerals_vitamin_b12": "Vitamin B12",
+                    "vitamins_and_minerals_biotin": "Biotin",
+                    "vitamins_and_minerals_pantothenic_acid": "Pantothensäure",
+                    "vitamins_and_minerals_potassium": "Kalium",
+                    "vitamins_and_minerals_chloride": "Chlor",
+                    "vitamins_and_minerals_calcium": "Calcium",
+                    "vitamins_and_minerals_phosphorus": "Phosphor",
+                    "vitamins_and_minerals_magnesium": "Magnesium",
+                    "vitamins_and_minerals_iron": "Eisen",
+                    "vitamins_and_minerals_zinc": "Zink",
+                    "vitamins_and_minerals_copper": "Kupfer",
+                    "vitamins_and_minerals_manganese": "Mangan",
+                    "vitamins_and_minerals_fluoride": "Fluor",
+                    "vitamins_and_minerals_selenium": "Selen",
+                    "vitamins_and_minerals_chromium": "Chrom",
+                    "vitamins_and_minerals_molybdenum": "Molybdän",
+                    "vitamins_and_minerals_iodine": "Jod",
+                    "allergens_cereals_containing_gluten": "Gluten und daraus gewonnene Erzeugnisse",
+                    "allergens_wheat": "Weizen und daraus gewonnene Erzeugnisse",
+                    "allergens_rye": "Roggen und daraus gewonnene Erzeugnisse",
+                    "allergens_barley": "Gerste und daraus gewonnene Erzeugnisse",
+                    "allergens_oats": "Hafer und daraus gewonnene Erzeugnisse",
+                    "allergens_spelt": "Dinkel und daraus gewonnene Erzeugnisse",
+                    "allergens_kamut": "Kamut und daraus gewonnene Erzeugnisse",
+                    "allergens_crustaceans": "Krebstiere und daraus gewonnene Erzeugnisse",
+                    "allergens_eggs": "Eier und daraus gewonnene Erzeugnisse",
+                    "allergens_fish": "Fisch und daraus gewonnene Erzeugnisse",
+                    "allergens_peanuts": "Erdnüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_soybeans": "Sojabohnen und daraus gewonnene Erzeugnisse",
+                    "allergens_milk": "Milch und daraus gewonnene Erzeugnisse",
+                    "allergens_almonds": "Mandeln und daraus gewonnene Erzeugnisse",
+                    "allergens_hazelnuts": "Haselnüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_walnuts": "Walnüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_cashews": "Kaschunüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_pecan_nuts": "Pecannüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_brazil_nuts": "Paranüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_pistachio_nuts": "Pistazien und daraus gewonnene Erzeugnisse",
+                    "allergens_macadamia": "Macadamianüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_queensland_nuts": "Queenslandnüsse und daraus gewonnene Erzeugnisse",
+                    "allergens_celery": "Sellerie und daraus gewonnene Erzeugnisse",
+                    "allergens_mustard": "Senf und daraus gewonnene Erzeugnisse",
+                    "allergens_sesame_seeds": "Sesamsamen und daraus gewonnene Erzeugnisse",
+                    "allergens_sulphur_dioxide_and_sulphites": "Schwefeldioxid und Sulfite und daraus gewonnene Erzeugnisse",
+                    "allergens_lupin": "Lupine und daraus gewonnene Erzeugnisse",
+                    "allergens_molluscs": "Weichtiere und daraus gewonnene Erzeugnisse",
+                    "misc_volume_of_alcohol": "Volumen des Alkohols"
+                },
+                "value": {
+                    "yes": "Ja",
+                    "no": "Nein"
+                },
+                "unit": {
+                    "kcal": "kcal",
+                    "kJ": "kJ",
+                    "g": "g",
+                    "mg": "mg",
+                    "ug": "μg",
+                    "percent_vol": "% vol."
+                }
+            },
+            "storefront": {
+                "component": {
+                    "nutriScore": {
+                        "title": "Nutri-Score"
+                    }
+                },
+                "page": {
+                    "productDetail": {
+                        "tabs": {
+                            "title": "Nährwerte & Allergene"
+                        },
+                        "values": {
+                            "title": "Nährwerte",
+                            "perUnit": "Nährwert per %unit%"
+                        },
+                        "allergens": {
+                            "title": "Allergene"
+                        },
+                        "misc": {
+                            "title": "Sonstiges"
+                        },
+                        "additionalInformation": {
+                            "title": "Zusätzliche Informationen"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customFields": {
+        "storefront": {
+            "component": {
+                "nutriScore": {
+                    "title": "Nutri-Score"
+                }
+            },
+            "page": {
+                "productDetail": {
+                    "tabs": {
+                        "title": "Nährwerte"
+                    },
+                    "values": {
+                        "title": "Nährwerte",
+                        "perUnit": "Nährwert per %unit%"
+                    },
+                    "allergens": {
+                        "title": "Allergene"
+                    },
+                    "misc": {
+                        "title": "Sonstiges"
+                    },
+                    "additionalInformation": {
+                        "title": "Zusätzliche Informationen"
+                    }
+                }
+            }
+        },
+        "migration_SW5-KS_product_attr4": "Brennwert KJ",
+        "migration_SW5-KS_product_attr5": "Brennwert Kcal",
+        "migration_SW5-KS_product_attr6": "Fett",
+        "migration_SW5-KS_product_attr7": "davon: gesättigte Fettsäuren",
+        "migration_SW5-KS_product_attr8": "davon: ungesättigte Fettsäuren",
+        "migration_SW5-KS_product_attr9": "Kohlenhydrate",
+        "migration_SW5-KS_product_attr10": "davon: Zucker",
+        "migration_SW5-KS_product_attr11": "Eiweis",
+        "migration_SW5-KS_product_attr20": "Salz",
+        "migration_SW5-KS_product_attr19": "Inhaltsstoffe"
+    }
+}

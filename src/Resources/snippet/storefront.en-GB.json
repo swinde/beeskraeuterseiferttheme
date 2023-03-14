@@ -1,0 +1,7 @@
+{
+    "child-theme": {
+        "alertHeader": "Child Theme funktioniert! :)",
+        "alertText": "Schau mal in den Entwicklertools des Browsers ob der <b>console.log()</b> Befehl auch funktioniert.",
+        "searchFreeShippingInfo": "Zahlung per <b>Vorkasse</b>,<b>Paypal</b>&<br><b>Rechnung</b>(ab 2. Bestellung mit Kundenkonto)"
+    }
+}

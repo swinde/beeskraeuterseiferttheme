@@ -1,0 +1,42 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/tabs.html.twig' %}
+
+{% block page_product_detail_tabs_navigation_description %}
+    {{ parent() }}
+    {# Ausgabe Inhaltstoffe Zusatzfeld #}
+    {% for key, item in page.product.translated.customFields %}
+        {% if key == "migration_SW5-KS_product_attr4" %}
+            {% set transName = "customFields." ~ key %}
+            <li class="nav-item">
+                <a class="nav-link product-detail-tab-navigation-link"
+                   id="bees-studio-nutrition-labelling-tab"
+                   data-toggle="tab"
+                   data-offcanvas-tabs="true"
+                   href="#bees-nutrition-labelling-tab-pane"
+                   role="tab"
+                   aria-controls="bees-studio-nutrition-labelling-cloud-tab-pane"
+                   aria-selected="true">
+                    <span>{{ "customFields.storefront.page.productDetail.tabs.title"|trans|sw_sanitize }}</span>
+                    <span class="product-detail-tab-navigation-icon">
+                  {% sw_icon 'arrow-medium-right' style {'pack':'solid'} %}
+              </span>
+                </a>
+            </li>
+
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}
+
+{% block page_product_detail_tabs_content_description %}
+    {{ parent() }}
+    <div class="tab-pane fade"
+         id="bees-nutrition-labelling-tab-pane"
+         role="tabpanel"
+         aria-labelledby="bees-nutrition-labelling-tab">
+        {% block beeWeb_nutrition_labelling_page_product_tabs_content_nutrition_labelling_content %}
+            {% sw_include '@BeesKraeuterSeifertTheme/storefront/page/product-detail/bees-nutrition-labelling/nutrition-labelling.html.twig' with {
+                reviews: page.reviews
+            } %}
+        {% endblock %}
+    </div>
+{% endblock %}
